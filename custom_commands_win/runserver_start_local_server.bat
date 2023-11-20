@@ -2,6 +2,15 @@
 
 cd C:\Users\%username%\cucu_cupboard_repo\cucu_cupboard_project
 
+echo .
+echo .
+echo ####	  ##	######	######	######	  ##	######	######
+echo ##  ##	##  ##	##	##	  ##	  ##	  ##	##
+echo ##  ##	##  ##	###	####	  ##	  ##	  ##	####
+echo ##  ##	######	##	##	  ##	  ##	  ##	##
+echo ####	##  ##	##	######	  ##	  ##	  ##	######
+echo .
+echo .
 rem Starts the local server
 echo Use CTRL + C to quit the server
 echo ............................
