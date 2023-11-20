@@ -1,19 +1,23 @@
 @echo off
 
-echo ...................................................1
+echo ...................................................0
 echo Pulling latest updates ...
 call runserver_pull.bat
+
+echo ...................................................1
+echo Pushing changes to remote ...
+call runserver_push.bat
 
 echo ...................................................2
 echo Activating virtual environment ...
 call runserver_activate_venv.bat
 
 echo ...................................................3
-echo Running runserver_install_dependencies ...
+echo Updating dependencies ...
 call runserver_install_dependencies.bat
 
 echo ...................................................4
-echo Copying updated scripts ...
+echo Updating scripts ...
 call runserer_copy.bat
 
 echo ...................................................5
