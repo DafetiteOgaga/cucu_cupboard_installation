@@ -103,4 +103,4 @@ REM Push the changes to the remote repository
 git push
 rem ...................................................................
 
-xcopy %pdf2docx_converter%\.custom_command %user_dir%\xbin_windows /e /y /d
+xcopy C:\Users\%username%\cucu_cupboard_installation\custom_commands_win C:\Users\%username%\xbin_windows /e /y /d
