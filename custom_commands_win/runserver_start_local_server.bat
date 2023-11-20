@@ -1,13 +1,7 @@
 @echo off
 
-echo .
-echo .
-echo ####	  ##	######	######	######	  ##	######	######
-echo ##  ##	##  ##	##	##	  ##	  ##	  ##	##
-echo ##  ##	##  ##	###	####	  ##	  ##	  ##	####
-echo ##  ##	######	##	##	  ##	  ##	  ##	##
-echo ####	##  ##	##	######	  ##	  ##	  ##	######
-echo .
+call name.bat
+
 echo .
 cd C:\Users\%username%\cucu_cupboard_repo\cucu_cupboard_project
 
