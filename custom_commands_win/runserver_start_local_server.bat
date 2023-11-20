@@ -1,7 +1,5 @@
 @echo off
 
-cd C:\Users\%username%\cucu_cupboard_repo\cucu_cupboard_project
-
 echo .
 echo .
 echo ####	  ##	######	######	######	  ##	######	######
@@ -11,8 +9,10 @@ echo ##  ##	######	##	##	  ##	  ##	  ##	##
 echo ####	##  ##	##	######	  ##	  ##	  ##	######
 echo .
 echo .
+cd C:\Users\%username%\cucu_cupboard_repo\cucu_cupboard_project
+
 rem Starts the local server
-echo Use CTRL + C to quit the server
+echo Use CTRL + C to quit the server (you may need to do this twice or thrice before it responds)
 echo ............................
 
 rem python manage.py runserver
