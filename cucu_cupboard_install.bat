@@ -1,8 +1,8 @@
 @echo off
 
-call name.bat
+call custom_commands_win\name.bat
 
-set my_path_clone=C:\Users\%username%
+set "my_path_clone=C:\Users\%username%"
 cd %my_path_clone%
 
 echo ...............................................
@@ -19,7 +19,7 @@ if not "%token%"=="" (
 
 set custom_commands_win=%my_path_clone%\cucu_cupboard_repo\custom_commands_win
 
-set xbin_windows=%my_path_clone%\xbin_windows
+set "xbin_windows=%my_path_clone%\xbin_windows"
 
 cd %my_path_clone%
 if exist "%xbin_windows%" (
@@ -29,11 +29,9 @@ if exist "%xbin_windows%" (
 	mkdir %xbin_windows%
 )
 
-echo ...............................................
-echo setting environmental variable ...
-call set_env_var.bat
+rem echo ...............................................
+rem echo setting environmental variable ...
+rem call set_env_var.bat
 rem setx PATH "%PATH%";%xbin_windows%
 
-cd %xbin_windows%
-
-xcopy %custom_commands_win% . /e /y /d
+call copy_path_ins.bat
