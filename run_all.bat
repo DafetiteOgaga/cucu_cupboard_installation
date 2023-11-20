@@ -10,7 +10,7 @@ call cucu_cupboard_install.bat
 
 set /P "resp=Do you want to run the program now? [y/N] >>> "
 
-if "%resp%"=="" || "%resp%"=="y" || "%resp%"=="Y" (
+if /i "%resp%"=="y" if not "%resp%"=="" (
 	call "%dir%\custom_commands_win\runserver_all.bat"
 ) else (
 	echo .
