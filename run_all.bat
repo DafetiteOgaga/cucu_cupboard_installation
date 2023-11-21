@@ -15,3 +15,5 @@ echo ## Open another window and run: runserver_all ##
 echo ################################################
 echo .
 echo .
+
+pause
