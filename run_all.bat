@@ -7,6 +7,7 @@ call set_env_var.bat
 
 cd %dir%
 call cucu_cupboard_install.bat
-
+echo .
+echo .
 echo Now, close this window.
 echo Open another window and run: runserver_all
