@@ -17,7 +17,7 @@ if not "%token%"=="" (
     git clone https://github.com/DafetiteOgaga/cucu_cupboard_repo.git
 )
 
-set custom_commands_win=%my_path_clone%\cucu_cupboard_repo\custom_commands_win
+rem set custom_commands_win=%my_path_clone%\cucu_cupboard_repo\custom_commands_win
 
 set "xbin_windows=%my_path_clone%\xbin_windows"
 

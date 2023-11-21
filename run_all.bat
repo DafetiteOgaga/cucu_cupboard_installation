@@ -1,6 +1,7 @@
 @echo off
 
-set "dir=C:\Users\%username%\cucu_cupboard_installation"
+rem set "dir=C:\Users\%username%\cucu_cupboard_installation"
+set "dir=C:\Users\%username%\Desktop\cucu_cupboard_installation"
 
 cd %dir%
 call set_env_var.bat
