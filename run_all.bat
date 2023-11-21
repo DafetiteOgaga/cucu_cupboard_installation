@@ -12,7 +12,7 @@ call set_env_var.bat
 cd %dir%
 call cucu_cupboard_install.bat
 
-call custom_commands_win\name.bat
+call %dir%\custom_commands_win\name.bat
 
 echo ################################################
 echo ## Now, close this window.                    ##
