@@ -34,4 +34,4 @@ rem echo setting environmental variable ...
 rem call set_env_var.bat
 rem setx PATH "%PATH%";%xbin_windows%
 
-call copy_path_ins.bat
+rem call copy_path_ins.bat
