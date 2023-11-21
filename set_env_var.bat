@@ -1,14 +1,6 @@
 @echo off
 
-echo .
-echo .
-echo #####	 ####	######	######	######	  ##	######	######
-echo ##  ##	##  ##	##	##	  ##	  ##	  ##	##
-echo ##  ##	##  ##	####	####	  ##	  ##	  ##	####
-echo ##  ##	######	##	##	  ##	  ##	  ##	##
-echo #####	##  ##	##	######	  ##	  ##	  ##	######
-echo .
-echo . 💪 We rise by lifting others.
+
 echo .
 echo .
 
@@ -59,5 +51,5 @@ call C:\Users\%username%\Desktop\cucu_cupboard_installation\custom_commands_win\
 rem call C:\Users\%username%\Desktop\cucu_cupboard_installation\custom_commands_win
 echo .
 echo .
-echo We rise by lifting others.
+
 endlocal

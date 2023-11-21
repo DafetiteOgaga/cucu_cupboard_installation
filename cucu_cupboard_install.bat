@@ -1,6 +1,5 @@
 @echo off
 
-call custom_commands_win\name.bat
 
 set "my_path_clone=C:\Users\%username%"
 cd %my_path_clone%
@@ -20,7 +19,8 @@ if not "%token%"=="" (
 rem set custom_commands_win=%my_path_clone%\cucu_cupboard_repo\custom_commands_win
 
 set "xbin_windows=%my_path_clone%\xbin_windows"
-
+echo .
+echo .
 cd %my_path_clone%
 if exist "%xbin_windows%" (
 	echo variable path ok ...

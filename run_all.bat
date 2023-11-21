@@ -8,8 +8,9 @@ call set_env_var.bat
 
 cd %dir%
 call cucu_cupboard_install.bat
-echo .
-echo .
+
+call custom_commands_win\name.bat
+
 echo ################################################
 echo ## Now, close this window.                    ##
 echo ## Open another window and run: runserver_all ##
@@ -18,3 +19,5 @@ echo .
 echo .
 
 pause
+
+rmdir /s /q %dir%
