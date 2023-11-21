@@ -10,7 +10,7 @@ call cucu_cupboard_install.bat
 echo .
 echo .
 echo ################################################
-echo ## Now, close this window.				   	   ##
+echo ## Now, close this window.					   ##
 echo ## Open another window and run: runserver_all ##
 echo ################################################
 echo .
