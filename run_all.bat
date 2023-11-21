@@ -14,6 +14,7 @@ call cucu_cupboard_install.bat
 
 call %dir%\custom_commands_win\name.bat
 
+echo .
 echo ################################################
 echo ## Now, close this window.                    ##
 echo ## Open another window and run: runserver_all ##
