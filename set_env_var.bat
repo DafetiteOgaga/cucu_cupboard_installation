@@ -55,7 +55,7 @@ for /f "tokens=2,*" %%I in ('reg query "HKCU\Environment" /v PATH ^| find "REG_S
 rem echo UPDATED_ENV_VAR: %UPDATED_ENV_VAR_PATH%
 rem echo ....................................................................
 rem call C:\Users\%username%\cucu_cupboard_installation\custom_commands_win\copy_path_ins.bat
-call custom_commands_win\copy_path_ins_desktop.bat
+call C:\Users\%username%\Desktop\cucu_cupboard_installation\custom_commands_win\copy_path_ins_desktop.bat
 rem call C:\Users\%username%\Desktop\cucu_cupboard_installation\custom_commands_win
 echo .
 echo .
