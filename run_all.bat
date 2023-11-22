@@ -12,7 +12,7 @@ call set_env_var.bat
 cd %dir%
 call cucu_cupboard_install.bat
 
-call %dir%\custom_commands_win\runsever_name.bat
+call %dir%\custom_commands_win\runserver_name.bat
 
 echo .
 echo ################################################
