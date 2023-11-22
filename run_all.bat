@@ -3,7 +3,7 @@
 echo ################################
 echo ## CUCU CUPBOARD INSTALLATION ##
 echo ################################
-rem set "dir=C:\Users\%username%\cucu_cupboard_installation"
+
 set "dir=C:\Users\%username%\Desktop\cucu_cupboard_installation"
 
 cd %dir%

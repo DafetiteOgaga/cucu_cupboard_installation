@@ -16,8 +16,6 @@ if not "%token%"=="" (
     git clone https://github.com/DafetiteOgaga/cucu_cupboard_repo.git
 )
 
-rem set custom_commands_win=%my_path_clone%\cucu_cupboard_repo\custom_commands_win
-
 set "xbin_windows=%my_path_clone%\xbin_windows"
 echo .
 echo .
@@ -28,10 +26,3 @@ if exist "%xbin_windows%" (
     echo creating variable path ...
 	mkdir %xbin_windows%
 )
-
-rem echo ...............................................
-rem echo setting environmental variable ...
-rem call set_env_var.bat
-rem setx PATH "%PATH%";%xbin_windows%
-
-rem call copy_path_ins.bat

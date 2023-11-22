@@ -19,9 +19,7 @@ if exist "%NEW_ENV_VAR%" (
 )
 echo ....................................................................
 cd %NEW_ENV_VAR%
-rem echo ....................................................................
-rem echo NEW_ENV_VAR: %NEW_ENV_VAR%
-rem echo ....................................................................
+
 for /f "tokens=2,*" %%I in ('reg query "HKCU\Environment" /v PATH ^| find "REG_SZ"') do (
     set "CURRENT_ENV_VAR=%%J"
 )
@@ -37,17 +35,12 @@ if errorlevel 1 (
 )
 
 echo ....................................................................
-rem echo new variables ...
-rem echo ....................................................................
 rem Retrieve the updated PATH variable
 for /f "tokens=2,*" %%I in ('reg query "HKCU\Environment" /v PATH ^| find "REG_SZ"') do (
     set "UPDATED_ENV_VAR_PATH=%%J"
 )
-rem echo UPDATED_ENV_VAR: %UPDATED_ENV_VAR_PATH%
-rem echo ....................................................................
-rem call C:\Users\%username%\cucu_cupboard_installation\custom_commands_win\copy_path_ins.bat
+
 call C:\Users\%username%\Desktop\cucu_cupboard_installation\custom_commands_win\copy_path_ins_desktop.bat
-rem call C:\Users\%username%\Desktop\cucu_cupboard_installation\custom_commands_win
 echo .
 echo .
 
