@@ -1,6 +1,6 @@
 @echo off
 
-set "repo_path=C:\Users\%username%\cucu_cupboard_repo\custom_commands_win"
+set "repo_path=C:\Users\%username%\xbin_windows"
 echo ...................................................0
 echo Pulling latest updates ...
 call "%repo_path%runserver_pull.bat"
