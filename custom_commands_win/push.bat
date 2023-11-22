@@ -16,7 +16,11 @@ rem     EXIT /B 0
 rem )
 
 set "RESP=General push - %DATE% %TIME%"
+echo Push commit: %RESP% ###############
+echo ...................................
 
+echo .
+echo .
 call name.bat
 
 echo ................................................................
@@ -39,6 +43,8 @@ REM Push the changes to the remote repository
 git push
 rem .................................................................
 
+echo .
+echo .
 call name.bat
 
 echo ................................................................
@@ -63,6 +69,8 @@ rem ...................................................................
 
 call copy_path_ins.bat
 
+echo .
+echo .
 call name.bat
 
 echo ................................................................
