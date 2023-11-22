@@ -1,6 +1,7 @@
 @echo off
 
-set "DateTime=%DATE% %TIME%"
+set "DateTime=Runserver commit - %DATE% %TIME%"
+echo "%DateTime%"
 REM Add all files to the commit
 git add .
 
