@@ -4,16 +4,18 @@ echo ..........................................................
 echo For cucu_cupboard_repo, cucu_cupboard_installation and pdf2docx_converter ...
 echo .................................................
 REM Get the commit message from the user
-SET /P "RESP=Enter a commit message [[q] to abort] >>> "
+rem SET /P "RESP=Enter a commit message [[q] to abort] >>> "
 
 rem ...................................................................
 REM Check if the commit message is empty or if the user wants to abort
-IF "%RESP%"=="" (
-    ECHO Commit message not found
-    EXIT /B 1
-) ELSE IF "%RESP%" == "q" (
-    EXIT /B 0
-)
+rem IF "%RESP%"=="" (
+rem     ECHO Commit message not found
+rem     EXIT /B 1
+rem ) ELSE IF "%RESP%" == "q" (
+rem     EXIT /B 0
+rem )
+
+set "RESP=%DATE% %TIME%"
 
 call name.bat
 
