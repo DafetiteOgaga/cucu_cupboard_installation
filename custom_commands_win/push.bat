@@ -19,7 +19,7 @@ set "RESP=General push - %DATE% %TIME%"
 echo Push commit: %RESP% ###############
 echo ...................................
 
-call name.bat
+call C:\Users\%username%\cucu_cupboard_installation\custom_commands_win\name.bat
 
 echo ................................................................
 echo For cucu_cupboard_repo ...
@@ -41,7 +41,7 @@ REM Push the changes to the remote repository
 git push
 rem .................................................................
 
-call name.bat
+call C:\Users\%username%\cucu_cupboard_installation\custom_commands_win\name.bat
 
 echo ................................................................
 echo For cucu_cupboard_installation ...
@@ -63,9 +63,9 @@ REM Push the changes to the remote repository
 git push
 rem ...................................................................
 
-call copy_path_ins.bat
+call C:\Users\%username%\cucu_cupboard_installation\custom_commands_win\copy_path_ins.bat
 
-call name.bat
+call C:\Users\%username%\cucu_cupboard_installation\custom_commands_win\name.bat
 
 echo ................................................................
 echo For pdf2docx_converter ...
@@ -87,4 +87,4 @@ REM Push the changes to the remote repository
 git push
 rem ...................................................................
 
-call copy_path_pdf2docx.bat
+call C:\Users\%username%\cucu_cupboard_installation\custom_commands_win\copy_path_pdf2docx.bat
