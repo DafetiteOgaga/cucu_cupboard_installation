@@ -59,6 +59,8 @@ REM Push the changes to the remote repository
 git push
 rem ...................................................................
 
+call copy_path_ins.bat
+
 call name.bat
 
 echo ................................................................
@@ -81,6 +83,4 @@ REM Push the changes to the remote repository
 git push
 rem ...................................................................
 
-call copy_path_ins.bat
 call copy_path_pdf2docx.bat
-call copy_path_repo.bat
