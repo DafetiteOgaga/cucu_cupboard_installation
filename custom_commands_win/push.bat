@@ -15,7 +15,7 @@ rem ) ELSE IF "%RESP%" == "q" (
 rem     EXIT /B 0
 rem )
 
-set "RESP=%DATE% %TIME%"
+set "RESP=General push - %DATE% %TIME%"
 
 call name.bat
 
