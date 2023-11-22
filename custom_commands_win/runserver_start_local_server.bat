@@ -1,6 +1,6 @@
 @echo off
 
-call name.bat
+call runserver_name.bat
 
 echo .
 cd C:\Users\%username%\cucu_cupboard_repo\cucu_cupboard_project
