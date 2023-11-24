@@ -21,7 +21,7 @@ https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/7b1
 
 1. ### **Clone the repository to Desktop**
    Now, you should see `C:\Users\<username>\Desktop>`. Run:
-   ```
+   ```command prompt
    git clone https://github.com/DafetiteOgaga/cucu_cupboard_installation.git
    ```
 
@@ -30,15 +30,15 @@ https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/7b1
    
 3. ### **Startup the local server**
    To get the local server running, Run:
-   ```
+   ```command prompt
    runserver_all
    ```
    Copy and paste this url to your browser:
-   ```
+   ```browser
    localhost:8000/
    ```
    or
-   ```
+   ```browser
    127.0.0.1:8000/
    ```
    Note: Only close the server when you are done with the project.
