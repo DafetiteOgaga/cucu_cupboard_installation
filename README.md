@@ -1,6 +1,8 @@
 
 
-https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/bf42525d-58da-45b7-bbc6-6180c6a43da8
+https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/aa5dfe33-4400-4b50-bcef-38991f132bc2
+
+
 
 # Cucu Cupboard Installation
 
