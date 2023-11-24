@@ -4,10 +4,6 @@ https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/bf4
 
 # Cucu Cupboard Installation
 
-<!-- ![Device check Image](https://youtu.be/i9gzXl-UqRQ) -->
-<!-- <iframe width="560" height="315" src="pdf2docx_converter_usage.mp4" frameborder="0" allowfullscreen></iframe> -->
-<iframe width="560" height="315" src="https://youtu.be/i9gzXl-UqRQ" frameborder="0" allowfullscreen></iframe>
-
 
 ### This is the setup for Cucu Cupboard on a Windows Computer.
 
