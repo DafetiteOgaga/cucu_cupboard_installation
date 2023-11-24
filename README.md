@@ -8,6 +8,7 @@
 - Python 3.8 and above
 - Git
 
+<br>
 
 # Installation process
 
