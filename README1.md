@@ -1,7 +1,3 @@
-
-
-https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/bf42525d-58da-45b7-bbc6-6180c6a43da8
-
 # Cucu Cupboard Installation
 
 
@@ -14,6 +10,8 @@ https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/bf4
 
 
 # Installation process
+
+https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/7b1b7c1d-4609-4611-bc4e-66321d7e1227
 
 0. ### **Change directory to Desktop**
    Open command prompt, you should see a prompt `C:\Users\<username>\>`. Change directory to desktop, run: 
