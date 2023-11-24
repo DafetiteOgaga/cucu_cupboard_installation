@@ -1,6 +1,6 @@
 # Cucu Cupboard Installation
 
-![Device check Image](pdf2docx_converter_usage.gif)
+![Device check Image](pdf2docx_converter_usage.mp4)
 
 ### This is the the installation setup for the Cucu Cupboard on a Windows Computer.
 
