@@ -15,7 +15,7 @@ https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/7b1
 
 0. ### **Change directory to Desktop**
    Open command prompt, you should see a prompt `C:\Users\<username>\>`. Change directory to desktop, run: 
-   ```
+   ```command prompt
    cd Desktop 
    ```
 
