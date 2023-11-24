@@ -1,3 +1,7 @@
+
+
+https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/bf42525d-58da-45b7-bbc6-6180c6a43da8
+
 # Cucu Cupboard Installation
 
 <!-- ![Device check Image](https://youtu.be/i9gzXl-UqRQ) -->
