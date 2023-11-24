@@ -1,18 +1,15 @@
 # Cucu Cupboard Installation
 
 <!-- ![Device check Image](pdf2docx_converter_usage.mp4) -->
-<video width="320" height="240" controls>
-  <source src="pdf2docx_converter_usage.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="pdf2docx_converter_usage.mp4" frameborder="0" allowfullscreen></iframe>
 
 
 ### This is the the installation setup for the Cucu Cupboard on a Windows Computer.
 
 # Requirements
-Windows 10
-Python 3.8 and above
-Git
+- Windows 10
+- Python 3.8 and above
+- Git
 
 
 # Installation process
