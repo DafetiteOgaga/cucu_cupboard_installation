@@ -16,7 +16,7 @@ rem     EXIT /B 0
 rem )
 
 set "RESP=General push - %DATE% %TIME%"
-echo Push commit: %RESP% ###############
+echo Push commit: %RESP% ############################################
 echo .....................................
 
 
@@ -28,7 +28,7 @@ echo ..........................
 cd C:\Users\%username%\cucu_cupboard_repo
 
 REM Pull the latest changes from cucu_cupboard_repo repository
-ECHO .....It's good to pull before pushing. So, I'm pulling ...######
+ECHO .....pulling ...################################################
 git pull
 
 ECHO .....pushing ...################################################
@@ -50,7 +50,7 @@ echo ..........................
 cd C:\Users\%username%\cucu_cupboard_installation
 
 REM Pull the latest changes from cucu_cupboard_installation repository
-ECHO .....It's good to pull before pushing. So, I'm pulling ...######
+ECHO .....pulling ...################################################
 git pull
 
 ECHO .....pushing ...################################################
@@ -74,7 +74,7 @@ echo ..........................
 cd C:\Users\%username%\pdf2docx_converter
 
 REM Pull the latest changes from pdf2docx_converter repository
-ECHO .....It's good to pull before pushing. So, I'm pulling ...######
+ECHO .....pulling ...################################################
 git pull
 
 ECHO .....pushing ...################################################
@@ -89,3 +89,25 @@ git push
 rem ...................................................................
 
 call copy_path_pdf2docx.bat
+
+call name.bat
+
+echo ................................................................
+echo For all_uncompleted_and_unpublished_projects ...
+echo ................................................
+cd C:\Users\%username%\all_uncompleted_and_unpublished_projects
+
+REM Pull the latest changes from pdf2docx_converter repository
+ECHO .....pulling ...################################################
+git pull
+
+ECHO .....pushing ...################################################
+REM Add all files to the commit
+git add .
+
+REM Commit the changes with the user-provided commit message
+git commit -m "%RESP%"
+
+REM Push the changes to the remote repository
+git push
+rem ...................................................................
