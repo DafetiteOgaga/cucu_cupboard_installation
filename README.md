@@ -58,16 +58,16 @@ This file contains the notable changes made to the Custom Commands project.
 <br>
 
 ## New
-	- implemented the env creation without bloating the capacity
+   - implemented the env creation without bloating the capacity
 
 
 ## Changes
-	- program now checks if the env exists and passes if it does
+   - program now checks if the env exists and passes if it does
 	- Minor changes to enhance performance
 
 
 ## Fixes
-	- copy issues fixed
+   - copy issues fixed
 
 
 
